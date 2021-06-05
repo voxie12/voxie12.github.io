@@ -65,14 +65,14 @@ html {
 input {
   background-color: unset;
   font: 16px "Iosevka Nerd Font";
-  color: #d5d5d5;
+  color: #42464E;
   height: 100%;
   width: 100%;
   border-top-style: hidden;
   border-bottom-style: soild;
   border-left-style: hidden;
   border-right-style: hidden;
-  border-bottom-color: #42464E;
+  border-bottom-color: #cc241d;
   text-align: center;
   margin-top: 50px;
 }
