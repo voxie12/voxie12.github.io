@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 html {
-      background-color: #1d2021;
+      background-color: #1a1b26;
       align-items: center;
       color: #ebdbb2;
       display: flex;
-      font: 22px "Courier New", Courier, monospace;
+      font-family: 'Ubuntu Mono', monospace;
+      font-size: 25px;
       height: 100%;
       justify-content: center;
       margin: 0;
@@ -20,7 +23,7 @@ html {
       grid-column: 1 / -1;
       margin: 0;
       text-align: center;
-      color: #cc241d;
+      color: #ff7a93;
     }
 
     a {
@@ -30,7 +33,7 @@ html {
 
     a:focus,
     a:hover {
-      color: #d79921;
+      color: #a9b1d6;
     }
 
     nav {
@@ -51,7 +54,7 @@ html {
     li:first-child {
       font-weight: bold;
       line-height: 2em;
-      color: #b16286;
+      color: #ad8ee6;
     }
 
     img {
@@ -64,7 +67,7 @@ html {
 
 input {
   background-color: unset;
-  font: 16px "Iosevka Nerd Font";
+  font: 16px 'Ubuntu Mono', monospace;
   color: #ebdbb2;
   height: 100%;
   width: 100%;
@@ -72,7 +75,7 @@ input {
   border-bottom-style: soild;
   border-left-style: hidden;
   border-right-style: hidden;
-  border-bottom-color: #cc241d;
+  border-bottom-color: #ff9e64;
   text-align: center;
   margin-top: 50px;
   outline: 0;
